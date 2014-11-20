@@ -1,5 +1,5 @@
 /*
-  EasyLED.h - Library for simpler LEDs.
+  EasyLED.cpp - Library for simpler LEDs.
   Created by M. Simpson, November 19, 2014.
   Released into the public domain.
 */
