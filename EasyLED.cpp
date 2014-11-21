@@ -19,11 +19,10 @@ void EasyLED::EasyOn()
 }
 void EasyLED::EasyOff()
 {
-  digitalWrite(_pin, LOW):
+  digitalWrite(_pin, LOW);
 }
 void EasyLED::Blink(int blinkDelay)
 {
-  delay(blinkDelay);
   digitalWrite(_pin, HIGH);
   delay(blinkDelay);
   digitalWrite(_pin, LOW);
