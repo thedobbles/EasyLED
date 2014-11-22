@@ -11,6 +11,7 @@ EasyLED::EasyLED(int pin)
 {
   pinMode(pin, OUTPUT);
   _pin = pin;
+  _blinkDelay = blinkDelay;
 }
 
 void EasyLED::EasyOn()
@@ -24,6 +25,6 @@ void EasyLED::EasyOff()
 void EasyLED::Blink(int blinkDelay)
 {
   digitalWrite(_pin, HIGH);
-  delay(blinkDelay);
+  delay(_blinkDelay);
   digitalWrite(_pin, LOW);
 }

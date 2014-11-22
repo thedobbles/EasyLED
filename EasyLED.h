@@ -17,6 +17,7 @@ class EasyLED
     void Blink(int blinkDelay);
   private:
     int _pin;
+	int _blinkDelay;
 };
 
 #endif
